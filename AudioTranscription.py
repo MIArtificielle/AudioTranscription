@@ -5,7 +5,7 @@ import os
 import json
 
 # whisper_model = whisper.load_model("large-v3", "cuda")
-whisper_model = whisper.load_model("./models/whisper-large-v3-french/original_model.pt", "cuda")
+whisper_model = whisper.load_model("C:/Users/micro/models/whisper-large-v3-french/original_model.pt", "cuda")
 
 # Lire les URL depuis le fichier texte
 video_urls = []
